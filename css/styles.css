@@ -1,0 +1,183 @@
+
+/**
+General
+**/
+*{
+    font-family: "OpenSans-Regular";
+}
+html,body {
+    height: 100%;
+    width: 100%;
+}
+[bg-purple]{
+    background-color: purple;
+}
+[br-purple]{
+    border-top: 1px solid purple;
+}
+[bold]{
+    font-weight: 800;
+}
+a:focus, a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.btn-burger{
+    background-color: blue;
+}
+.navbar-nav-horizontal{
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+}
+.navbar-nav .nav-link {
+    padding-right: .5rem;
+    padding-left: .5rem;
+}
+.circle{
+    background-color: yellow;
+    height: 55px;
+    width: 55px;
+    border-radius: 100%;
+    position: relative;
+    display: block;
+}
+.circle i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 1.5rem;
+}
+.no-pdr{
+    padding-right: 0;
+}
+.no-pdl{
+    padding-left: 0;
+}
+.center-row{
+    width: 85%;
+    margin: 0 auto;
+}
+.image-card{
+    height: 400px;
+    object-fit: cover;
+    object-position: center;
+}
+.card-title{
+    color:purple;
+}
+.card-body{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.effect-link{
+    position: relative;
+    text-decoration: none;
+}
+.effect-link::before{
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    height: 3px;
+    background-color: purple;
+    width: 0px;
+    transition: all 600ms linear;
+}
+.effect-link:hover:before{
+    width: 100%;
+}
+.card{
+    box-shadow: -1px 4px 40px -8px black;
+    border:none;
+}
+.box-price{
+    background-color: yellow;
+    width: 80%;
+    height: 100%;
+    display: table;
+    margin: 0 auto;
+}
+.price{
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+.mybadge{
+    position: absolute;
+    top: -10px;
+    left: -40px;
+    height: 100px;
+    width: 100px;
+    border-radius: 100%;
+}
+.round-star {
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%; 
+    background-color: yellow;
+}
+.round-star:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: yellow;
+    -webkit-transform: rotateZ(30deg) scaleX(1) scaleY(1) scaleZ(1);
+    transform: rotateZ(30deg) scaleX(1) scaleY(1) scaleZ(1);
+}
+.round-star:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: yellow;
+    -webkit-transform: rotateZ(60deg) scaleX(1) scaleY(1) scaleZ(1);
+    transform: rotateZ(60deg) scaleX(1) scaleY(1) scaleZ(1);
+
+}
+.text-mybadge{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.btn-buy {
+    color: #fff;
+    background-color: purple;
+    border-color: purple;
+}
+.btn-large {
+    display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    padding-left: 6rem;
+    padding-right: 6rem;
+}
+/*
+.image-aptitud{
+    width: 10%;
+}
+.text-aptitud{
+    width: 90%;
+}*/
