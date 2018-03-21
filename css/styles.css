@@ -52,12 +52,7 @@ a:focus, a:hover {
     transform: translate(-50%,-50%);
     font-size: 1.5rem;
 }
-.no-pdr{
-    padding-right: 0;
-}
-.no-pdl{
-    padding-left: 0;
-}
+
 .center-row{
     width: 85%;
     margin: 0 auto;
@@ -105,6 +100,9 @@ a:focus, a:hover {
     display: table-cell;
     vertical-align: middle;
     text-align: center;
+}
+.price p{
+    margin: 0;
 }
 .mybadge{
     position: absolute;
@@ -174,10 +172,20 @@ a:focus, a:hover {
     padding-left: 6rem;
     padding-right: 6rem;
 }
-/*
-.image-aptitud{
-    width: 10%;
+
+.firma{
+    margin-top: 2rem;
 }
-.text-aptitud{
-    width: 90%;
-}*/
+/*Fonts*/
+
+.price-number{
+    font-family: "OpenSans-ExtraBoldItalic";
+}
+
+.banner-title{
+    font-family: "OpenSans-LightItalic";
+}
+
+.badge-title{
+    font-family: "OpenSans-Bold";
+}

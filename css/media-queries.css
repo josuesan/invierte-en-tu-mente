@@ -1,3 +1,72 @@
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .mybadge {
+        top: -20px;
+        left: 50%;
+        height: 85px;
+        width: 85px;
+        transform: translate(-50%,0);
+    }
+    .btn-large{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .card {
+        width: 100%;
+    }
+    .sm-no-pd{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .firma img{
+        width:100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .m-hidden{
+        display: none;
+    }
+    .circle{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .mybadge {
+        top: -10px;
+        left: -30px;
+        height: 95px;
+        width: 95px;
+    }
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px){
+    .mybadge {
+        top: -12px;
+        left: -20px;
+        height: 90px;
+        width: 90px;
+    }
+    .card {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (min-width:1280px){
+    .desktop-no-pdr{
+        padding-right: 0;
+    }
+    .desktop-no-pdl{
+        padding-left: 0;
+    }
+}
+
 /**
 Overload Bootstrap
 **//*
