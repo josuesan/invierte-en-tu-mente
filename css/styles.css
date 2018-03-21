@@ -176,6 +176,9 @@ a:focus, a:hover {
 .firma{
     margin-top: 2rem;
 }
+.bg-image{
+    width: 100%;
+}
 /*Fonts*/
 
 .price-number{
