@@ -12,6 +12,9 @@ html,body {
 [bg-purple]{
     background-color: purple;
 }
+[br-white]{
+    border-top: 1px solid white;
+}
 [br-purple]{
     border-top: 1px solid purple;
 }
@@ -197,16 +200,54 @@ a:focus, a:hover {
 }
 .rrss-box{
     height: 45%;
+    width: 100%;
+    display: table;
+}
+.tc-midle{
+    display: table-cell;
+    vertical-align: middle;
 }
 .menu-footer{
-    height: 55%;
+    padding: 1.5rem 0rem 0rem 0rem;
+}
+.menu-footer * , .rrss-box *{
+    color: white;
 }
 .list-rrss{
     text-align: center;
 }
 .list-rrss ul{
     list-style: none;
-    padding: 0;
+    justify-content: center;
+    padding: 1.5rem 0rem;
+}
+.list-rrss i{
+    font-size: 5rem;
+    color: white;
+}
+.list-rrss li{
+    padding-right: 1.5rem;
+}
+.list-title {
+    margin-bottom: 1rem;
+} 
+.list-title a{
+    border-bottom: 1px solid white;
+    margin-bottom: 1rem;
+} 
+#copyrigth{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: purple;
+    opacity: 0.5;
 }
 /*Fonts*/
 
