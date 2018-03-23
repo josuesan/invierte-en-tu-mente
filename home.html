@@ -18,6 +18,30 @@
     <script src="js/index.js"></script>
 </head>
 <body>
+    <div class="full-device-menu">
+        <div class="menu-relative">
+            <ul class="navbar-nav ml-auto aligned">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Mentoría personalizada</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Sobre mi</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Youtube</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contacto</a>
+                </li>
+                <li>
+                    <a id="search-nav" class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
     <!--Header-->
     <header>
         <div class="container-fluid">
@@ -31,8 +55,13 @@
                     <div class="container">
                         <nav class="navbar navbar-toggleable-md ">                         
                             <!--Burger button-->
-                            <button class="btn-burger navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
-                            </button>
+                            <div class="navbar-toggler navbar-toggler-right">
+                                <div class="btn-burger">
+                                    <div class="burger-line"></div>
+                                    <div class="burger-line"></div>
+                                    <div class="burger-line"></div>
+                                </div>
+                            </div>
                             <!--logo  area-->
                             <a class="navbar-brand" href="#">
                                 <img class="d-block img-fluid" src="images/logo.png" alt="First slide">
@@ -40,7 +69,7 @@
                             <!--Menu-->
                             <div class="collapse navbar-collapse" id="navbarsExampleDefault">
                                 <ul class="navbar-nav ml-auto aligned">
-                                    <li class="nav-item active">
+                                    <li class="nav-item">
                                         <a class="nav-link" href="#">Mentoría personalizada</a>
                                     </li>
                                     <li class="nav-item">
@@ -55,8 +84,8 @@
                                     <li class="nav-item">
                                         <a class="nav-link" href="#">Contacto</a>
                                     </li>
-                                    <li>
-                                        <a id="search-nav" class="nav-link" href="#"><i class="fas fa-search"></i></a>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
                                     </li>
                                 </ul>
                             </div>
