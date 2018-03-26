@@ -22,6 +22,12 @@ html,body {
 [bold]{
     font-weight: 800;
 }
+[white]{
+    color: white;
+}
+[bg-purple-gradient]{
+    background: linear-gradient(to bottom, #7b027a,#fab800);
+}
 a:focus, a:hover {
     color: black;
     text-decoration: none;
@@ -43,7 +49,9 @@ a:focus, a:hover {
 .overflow-state{
     overflow: hidden;
 }
-
+.header-talleres{
+    margin-bottom: 3rem;
+}
 .btn-burger{
     position: relative;
     padding-top: 10px;
@@ -218,6 +226,13 @@ a:focus, a:hover {
 .price p{
     margin: 0;
 }
+.mr-15{
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+.pay-area{
+    margin-top: 1.5rem;
+}
 .mybadge{
     position: absolute;
     top: -10px;
@@ -312,6 +327,35 @@ a:focus, a:hover {
         transform: skew(0);
     }
 }
+.btn-buy-white {
+    color: #7b027a;
+    background-color: #fff;
+    border-color: #fff;
+    font-size: 1.4rem !important;
+    font-family: "OpenSans-Bold";
+
+}
+.btn-buy-white {
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+} 
+ 
+.btn-buy-white:hover {
+    -webkit-animation-name: woble;
+    animation-name: woble;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1; 
+    color: #fff;
+    background-color: #fab800;
+    border-color: #fab800;
+    
+}
 .btn-large {
     display: inline-block;
     font-weight: 400;
@@ -334,10 +378,25 @@ a:focus, a:hover {
     padding-right: 6rem;
 }
 
-.btn-large:hover{
-    color: #fff;
+.card-logos-box{
+    background-color: #fff;
+    height: 30px;
+    width: 50px;
+    margin-right: 10px;
 }
+.back-box{
+    margin-top: 2rem;
+}
+.back-box p::before{
+    content: "<";
+    color: white;
+    font-weight: 800;
 
+}
+.taller-layout{
+    max-width: 70%;
+
+}
 .navbar-nav .nav-item .nav-link{
     color: #fab800;
     transition: all 0.25s ease;
@@ -435,7 +494,11 @@ a:focus, a:hover {
     font-size: 40px;
     color:#7b027a;
 }
-
+.price-number-white{
+    font-family: "OpenSans-ExtraBoldItalic";
+    font-size: 1.4rem;
+    color: #fff;
+}
 .banner-title{
     font-family: "OpenSans-LightItalic";
 }
@@ -443,7 +506,24 @@ a:focus, a:hover {
 .badge-title{
     font-family: "OpenSans-Bold";
 }
+.banner-talleres{
+    font-family: "OpenSans-Bold";
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1;
+}
+.banner-talleres-light{
+    font-family: "OpenSans-LightItalic";
+    color: #fff;
+    font-size: 4rem;
+    line-height: 1;
+}
+.section-title{
+    font-family: "OpenSans-Bold";
+    color: #fab800;
+    font-size: 1.2rem;
 
+}
 .banner-image{
     height: 570px;
     width: 100%;
