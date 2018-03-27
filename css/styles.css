@@ -10,14 +10,17 @@ html,body {
     height: 100%;
     width: 100%;
 }
+[purple]{
+    color: #7b027a;
+}
 [bg-purple]{
-    background-color: purple;
+    background-color: #7b027a;
 }
 [br-white]{
     border-top: 1px solid white;
 }
 [br-purple]{
-    border-top: 1px solid purple;
+    border-top: 1px solid #7b027a;
 }
 [bold]{
     font-weight: 800;
@@ -54,6 +57,7 @@ a:focus, a:hover {
 }
 .header-talleres{
     margin-bottom: 3rem;
+    width: 100%;
 }
 .btn-burger{
     position: relative;
@@ -521,11 +525,53 @@ a:focus, a:hover {
     font-size: 4rem;
     line-height: 1;
 }
+.banner-mentoria{
+    font-family: "OpenSans-Bold";
+    color: #7b027a;
+    font-size: 4rem;
+    line-height: 1;
+}
+.banner-mentoria-light{
+    font-family: "OpenSans-LightItalic";
+    color: #7b027a;
+    font-size: 4rem;
+    line-height: 1;
+}
 .section-title{
     font-family: "OpenSans-Bold";
     color: #fab800;
     font-size: 1.2rem;
-
+}
+.section-title-mentoria{
+    font-family: "OpenSans-Bold";
+    color: #7b027a;
+    font-size: 1.2rem;
+}
+.time-text{
+    font-family: "OpenSans-SemiBold";
+    color: #7b027a;
+    font-size: 1.6rem; 
+}
+.big-number{
+    font-family: "OpenSans-Light";
+    color: #7b027a;
+    font-size: 6rem;
+    line-height: 1;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.no-pd{
+    padding-left: 0;
+    padding-right: 0;
+}
+.profile img{
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+.time-area{
+    width: 120px;
 }
 .banner-image{
     height: 570px;

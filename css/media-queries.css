@@ -1,5 +1,19 @@
 
 @media only screen and (min-width:320px) and (max-width:768px){
+    .taller-layout{
+        max-width: 100%;
+    }
+    .pay-area{
+        text-align: center;
+    }
+    .justify-content-mobile{
+        justify-content: center;
+    }
+    .time-area,.buy-area , .time-area *{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
     .mybadge {
         top: -20px;
         left: 50%;
