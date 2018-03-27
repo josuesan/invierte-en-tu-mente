@@ -28,6 +28,9 @@ html,body {
 [bg-purple-gradient]{
     background: linear-gradient(to bottom, #7b027a,#fab800);
 }
+[bg-yellow-gradient]{
+    background: linear-gradient(to bottom, #fff,#fab800);
+}
 a:focus, a:hover {
     color: black;
     text-decoration: none;
