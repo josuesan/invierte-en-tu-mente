@@ -34,16 +34,83 @@ html,body {
 [bg-yellow-gradient]{
     background: linear-gradient(to bottom, #fff,#fab800);
 }
+[bg-purple-gradient-lateral]{
+    background: linear-gradient(-45deg ,#fab800 10% ,#7b027a );
+}
 a:focus, a:hover {
     color: black;
     text-decoration: none;
 }
 
-
+.nosotros *{
+    color: white;
+}
+.form input, .form textarea, .form #btn-form{
+    width:100%;
+    display: block;
+}
+.form a{
+    text-align: center;
+    height: 30px;
+}
+.form textarea{
+    margin-top: 1.5rem;
+    height: 100px;
+}
+.btn-mentoria{
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #fab800;
+    color: #fab800;
+    position: relative;
+    z-index: 2;
+    
+}
+.btn-mentoria:before{
+    content: "";
+    background-color: #fab800;
+    width: 0%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    transition: all 600ms linear;
+}
+.btn-mentoria #effect-span {
+    text-align: center;
+    display: block;
+    z-index: 1;
+    position: relative;
+    color: #fab800;
+    transition: all 800ms linear;
+}
+.btn-mentoria:hover #effect-span {
+    text-align: center;
+    display: block;
+    z-index: 1;
+    position: relative;
+    color: #fff;
+}
+.row-info-contacto{
+    margin-top: 3rem;
+}
+.btn-mentoria:hover:before{
+    width: 100%;
+}
+.btn-mentoria:hover{
+    color: #fff;
+}
 .m-0{
     margin: 0;
 }
-
+.testimonio-area{
+    overflow: hidden;
+}
+.testimonio-area img{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 .fa-search{
     color: white;
 }
@@ -358,9 +425,9 @@ a:focus, a:hover {
     animation-timing-function: ease-in-out;
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1; 
-    color: #fff;
-    background-color: #fab800;
-    border-color: #fab800;
+    color: #fab800;
+    /*background-color: #fab800;
+    border-color: #fab800;*/
     
 }
 .btn-large {
