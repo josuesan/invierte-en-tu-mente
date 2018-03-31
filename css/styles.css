@@ -13,6 +13,11 @@ html,body {
 [purple]{
     color: #7b027a;
 }
+
+[yellow]{
+    color: #fab800;
+}
+
 [bg-purple]{
     background-color: #7b027a;
 }
@@ -22,17 +27,29 @@ html,body {
 [br-purple]{
     border-top: 1px solid #7b027a;
 }
+[light]{
+    font-family: 'OpenSans-Light';
+}
+[italic]{
+    font-style: italic;
+}
+[extra-bold]{
+    font-family: 'OpenSans-ExtraBold';
+}
 [bold]{
-    font-weight: 800;
+    font-family: 'OpenSans-Bold';    
 }
 [white]{
     color: white;
+}
+[bg-purple-white-gradient]{
+    background: linear-gradient(to bottom, #7b027a,#ffffff);
 }
 [bg-purple-gradient]{
     background: linear-gradient(to bottom, #7b027a,#fab800);
 }
 [bg-yellow-gradient]{
-    background: linear-gradient(to bottom, #fff,#fab800);
+    background: linear-gradient(to bottom right, #fff,#fab800)
 }
 [bg-purple-gradient-lateral]{
     background: linear-gradient(-45deg ,#fab800 10% ,#7b027a );
@@ -45,6 +62,15 @@ a:focus, a:hover {
 .nosotros *{
     color: white;
 }
+
+.nosotros .container{
+    padding: 60px 0;
+}
+
+.testimonios{
+    padding: 60px 0;
+}
+
 .form input, .form textarea, .form #btn-form{
     width:100%;
     display: block;
@@ -55,8 +81,41 @@ a:focus, a:hover {
 }
 .form textarea{
     margin-top: 1.5rem;
-    height: 100px;
+    height: 200px;
+    margin-bottom: 1.5rem;
 }
+
+.form-title{
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.sobre-mi .info p{
+    margin-bottom: 5px;
+}
+
+.sobre-mi .info img{
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+}
+
+.sobre-mi .banner-image{
+    height: 820px;
+}
+
+.sobre-mi .info{
+    margin-bottom: 20px;
+}
+
+.sobre-mi .contacto{
+    margin-top: 30px;
+}
+
+.profile .name{
+    font-size: 20px;
+}
+
 .btn-mentoria{
     margin-top: 1rem;
     padding: 0.5rem;
@@ -92,7 +151,7 @@ a:focus, a:hover {
     color: #fff;
 }
 .row-info-contacto{
-    margin-top: 3rem;
+    margin-top: 100px;
 }
 .btn-mentoria:hover:before{
     width: 100%;
@@ -304,8 +363,9 @@ a:focus, a:hover {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
 }
-.pay-area{
+.pay-area, .buy-area{
     margin-top: 1.5rem;
+    width: 295px;
 }
 .mybadge{
     position: absolute;
@@ -452,11 +512,61 @@ a:focus, a:hover {
     padding-right: 6rem;
 }
 
+
+.card-logos{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-logos img{
+    width: 100%;
+    height: auto;
+}
+
+.card-logos .col-3{
+    padding: 5px;
+}
+
+.buy-area .btn-large{
+    width: 100%;
+    padding: .5rem 0;
+}
+.question{
+    font-size: 1.1rem;
+}
+.taller .container-fluid[bg-purple-white-gradient]{
+    padding-bottom: 200px;
+}
+
+.oferta{
+    font-size: 0.7rem;
+}
+
+.oferta span{
+    font-size: 1rem;
+}
+
+.taller .info-container{
+    font-size: 1.1rem;
+}
+
+.taller .pay-area .btn-large{
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
+}
+
 .card-logos-box{
     background-color: #fff;
-    height: 30px;
-    width: 50px;
+    height: 40px;
+    width: 65px;
     margin-right: 10px;
+}
+
+.card-logos-box img{
+    width: 100%;
+    height: auto;
 }
 .back-box{
     margin-top: 2rem;
@@ -465,19 +575,22 @@ a:focus, a:hover {
     content: "<";
     color: white;
     font-weight: 800;
-
+    padding-right: 15px;
 }
 .taller-layout{
     max-width: 70%;
 
 }
 .navbar-nav .nav-item .nav-link{
-    color: #fab800;
     transition: all 0.25s ease;
 }
 
 .navbar-nav .nav-item.active .nav-link, .navbar-nav .nav-item .nav-link:hover{
     color: #fff;
+}
+
+.navbar-nav li a{
+    font-size: 12px;
 }
 
 .firma{
@@ -501,6 +614,14 @@ a:focus, a:hover {
 }
 .container-full-height{
     height: 100%;
+}
+
+.title{
+    font-size: 60px;
+}
+
+.subtitle{
+    font-size: 42px;
 }
 
 .rrss-box{
@@ -576,7 +697,10 @@ a:focus, a:hover {
 .banner-title{
     font-family: "OpenSans-LightItalic";
 }
-
+.banner-precio{
+    font-size: 4.5rem;
+    line-height: 0.9;
+}
 .badge-title{
     font-family: "OpenSans-Bold";
 }
@@ -584,7 +708,11 @@ a:focus, a:hover {
     font-family: "OpenSans-Bold";
     color: #fff;
     font-size: 4rem;
-    line-height: 1;
+    line-height: 0.9;
+    margin-bottom: 0;
+}
+.taller .banner-talleres-light{
+    margin-bottom: 0;
 }
 .banner-talleres-light{
     font-family: "OpenSans-LightItalic";
@@ -633,10 +761,16 @@ a:focus, a:hover {
     padding-right: 0;
 }
 .profile img{
-    width: 50%;
+    width: 75%;
     margin: 0 auto;
     display: block;
 }
+
+.profile{
+    padding: 0 110px;
+    padding-left: 0;
+}
+
 .time-area{
     width: 120px;
 }
@@ -649,8 +783,8 @@ a:focus, a:hover {
 
 .veil{
     width: 100%;
-    height: 570px;
-    background-color: rgba(128,0,128,0.3);
+    height: 100%;
+    background-color: rgba(55,0,55,0.58);
 }
 
 .banner-info{
