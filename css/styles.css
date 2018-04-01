@@ -549,14 +549,22 @@ a:focus, a:hover {
 .taller .info-container{
     font-size: 1.1rem;
 }
-
+.btn-large .btn-buy:focus{
+    color: white;
+}
 .taller .pay-area .btn-large{
     width: 100%;
     padding-left: 0;
     padding-right: 0;
     text-align: center;
 }
-
+.modal-centered{
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
 .card-logos-box{
     background-color: #fff;
     height: 40px;
