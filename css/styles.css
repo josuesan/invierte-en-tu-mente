@@ -151,7 +151,7 @@ a:focus, a:hover {
     color: #fff;
 }
 .row-info-contacto{
-    margin-top: 100px;
+    margin-top: 50px;
 }
 .btn-mentoria:hover:before{
     width: 100%;
@@ -541,7 +541,9 @@ a:focus, a:hover {
 .oferta{
     font-size: 0.7rem;
 }
-
+.logo-image{
+    height: 80px;
+}
 .oferta span{
     font-size: 1rem;
 }
@@ -557,6 +559,13 @@ a:focus, a:hover {
     padding-left: 0;
     padding-right: 0;
     text-align: center;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
 }
 .modal-centered{
     display: flex;
