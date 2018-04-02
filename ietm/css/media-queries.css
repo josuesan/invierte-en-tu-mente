@@ -1,0 +1,232 @@
+
+@media only screen and (min-width:320px) and (max-width:768px){
+    .taller-layout{
+        max-width: 100%;
+    }
+    .pay-area{
+        text-align: center;
+    }
+    .justify-content-mobile{
+        justify-content: center;
+    }
+    .time-area,.buy-area , .time-area *{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .mybadge {
+        top: -20px;
+        left: 50%;
+        height: 85px;
+        width: 85px;
+        transform: translate(-50%,0);
+    }
+    .btn-large{
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+    .card {
+        width: 100%;
+    }
+    .sm-no-pd{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .firma img{
+        width:100%;
+        object-fit: cover;
+        object-position: center;
+    }
+    .m-hidden{
+        display: none;
+    }
+    .circle{
+        margin: 0 auto;
+        margin-bottom: 1rem;
+    }
+    .list-rrss i {
+        font-size: 2rem;
+    }
+    .menu-footer li:last-child{
+        margin-bottom: 1rem;
+    }
+
+    .banner-mentoria{
+        font-size: 3rem;
+    }
+
+    .banner-mentoria-light{
+        font-size: 2rem;
+    }
+
+    header .container{
+        width: 100%;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:992px){
+    .mybadge {
+        top: -10px;
+        left: -30px;
+        height: 95px;
+        width: 95px;
+    }
+    .card {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1280px){
+    .mybadge {
+        top: -12px;
+        left: -20px;
+        height: 90px;
+        width: 90px;
+    }
+    .card {
+        width: 95%;
+        margin: 0 auto;
+    }
+
+}
+@media only screen and (min-width:1280px){
+    .desktop-no-pdr{
+        padding-right: 0;
+    }
+    .desktop-no-pdl{
+        padding-left: 0;
+    }
+}
+
+
+@media only screen and (max-width:991px){
+    .btn-large{
+        padding-left: 4.2rem;
+        padding-right: 4.2rem;
+    }
+
+    .pay-area, .buy-area{
+        width: 235px;
+        margin: 0 auto;    
+    }
+}
+
+@media only screen and (max-width: 767px){
+    .banner-talleres, .banner-talleres-light{
+        font-size: 3rem;
+    }
+
+    .profile{
+        padding: 0 50px;
+    }
+
+    .profile img{
+        width: 30%;
+    }
+
+    .title{
+        font-size: 40px;
+    }
+    
+    .subtitle{
+        font-size: 35px;
+    }
+    
+    .sobre-mi .banner-image{
+        height: 1120px;
+    }
+
+    footer{
+        height: 650px;
+    }
+    
+    .menu-footer .navbar-nav{
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .rrss-box{
+        padding-top: 20px;
+        height: 160px;
+    }
+
+    .copyright-cont{
+        padding-top: 20px;
+        height: 30px;
+    }
+
+    #copyright{
+        position: relative;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .list-rrss i {
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .profile{
+        padding: 0;
+    }
+
+    .banner-precio{
+        font-size: 3.5rem;
+    }
+
+    .row-info-contacto{
+        margin-top: 60px;
+    }
+
+    .banner-title{
+        color: #fff;
+        font-size: 2.5rem;
+    }
+
+    .banner-subtitle{
+        font-size: 1rem;
+    }
+
+    .banner-title{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-subtitle{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .banner-content{
+        width: 250px;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .sobre-mi .info img{
+        margin-right: 5px;
+    }
+
+    .sobre-mi .info p{
+        font-size: 14px;
+    }
+}
+
+/**
+Overload Bootstrap
+**//*
+@media (min-width: 992px) and (max-width:1280){
+    .container {
+        width: 960px !important;
+        max-width: 100% !important;
+    }
+}
+@media (min-width: 1280px){
+    .container {
+        width: 1140px;
+        max-width: 100%;
+    }
+}*/

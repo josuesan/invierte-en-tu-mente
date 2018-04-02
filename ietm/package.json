@@ -1,0 +1,24 @@
+{
+  "name": "invierte-en-tu-mente",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel js/index.js --out-file js/index-compiled.js",
+    "dev": "babel js/index.js --watch js/index-compiled.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josuesan/invierte-en-tu-mente.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josuesan/invierte-en-tu-mente/issues"
+  },
+  "homepage": "https://github.com/josuesan/invierte-en-tu-mente#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1"
+  }
+}
