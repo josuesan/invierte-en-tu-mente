@@ -216,7 +216,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                 <div class="row">
                     <div class="col-12 sm-no-pd">
                         <div class="card" >
-                            <img class="card-img-top image-card" src="<?= get_template_directory_uri() ?>/images/laptop.jpg" alt="Card image cap">
+                            <img class="card-img-top image-card" src="<?= get_template_directory_uri() ?>/images/tallerMTV_1.jpg" alt="Card image cap">
                             <div class="mybadge">
                                 <div class="round-star">
                                     
@@ -369,7 +369,7 @@ $page_talleres = get_page_by_path( 'talleres' );
             <div class="row center-row"> <!--firma--> 
                 <div class="col-12 col-md-6">
                     <div class="firma">
-                        <img src="<?= get_template_directory_uri() ?>/images/lara-croft.png" alt="">
+                        <img src="<?= get_template_directory_uri() ?>/images/svg/firma.svg" alt="">
                     </div>
                 </div>
             </div>

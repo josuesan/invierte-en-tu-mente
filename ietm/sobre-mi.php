@@ -119,20 +119,18 @@ $page_talleres = get_page_by_path( 'talleres' );
                                         </div>
                                     </div>
                                     <div class="form">
-                                        <form action="">
+                                        <form url="<?php echo admin_url( 'admin-ajax.php' );?>">
                                             <div class="container">
                                                 <div class="row">
                                                     <div class="col-12 col-md-6">
-                                                        <input type="text" placeholder="algo">
+                                                        <input type="text" name="name" placeholder="Nombre">
                                                     </div>
                                                     <div class="col-12 col-md-6">
-                                                        <input type="text" placeholder="algo">
-                                                    </div>
-                                                        
+                                                        <input type="text" name="mail" placeholder="Correo">
+                                                    </div>                                                        
                                                     <div class="col-12">
-                                                        <textarea name="" id="" placeholder="algoo
-                                                        "></textarea>
-                                                        <a href=""  class="btn-buy" id="btn-form">Enviar</a> 
+                                                        <textarea name="details" id="details" placeholder="Mensaje"></textarea>
+                                                        <a url="<?php echo admin_url( 'admin-ajax.php' );?>"  class="btn-buy" id="btn-form">Enviar</a> 
                                                     </div>
                                                 </div>
                                             </div>   

@@ -61,7 +61,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 </div>
                                 <!--logo  area-->
                                 <a class="navbar-brand" href="<?php echo get_permalink( $page_inicio->ID  ) ?>">
-                                    <img class="d-block img-fluid logo-image" src="<?= get_template_directory_uri() ?>/images/logo-black.png" alt="First slide">
+                                    <img class="d-block img-fluid logo-image" src="<?= get_template_directory_uri() ?>/images/logo-white.png" alt="First slide">
                                 </a>
                                 <!--Menu-->
                                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -102,7 +102,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <p class="banner-talleres">Taller</p>
                                 <h1 class="banner-talleres-light">Monetiza tu vida</h1>
                                 <p class="banner-precio" bold yellow>30$</p>
-                                <a href="" class="btn-large btn-buy-white">Comprar</a>
+                                <a href="" class="btn-large btn-buy-white" data-toggle="modal" data-target="#ModalTaller">Comprar</a>
                                 <p class="banner-extra" white italic>Contiene Material de apoyo</p>
                             </div>
                         </div>
@@ -131,8 +131,34 @@ $page_talleres = get_page_by_path( 'talleres' );
                             <div class="pay-area">
                                 <h4 white>Comprar Taller</h4>
                                 <p class="oferta" white>A partir de Mayo por solo <span>$30</span></p>
-                                <a href="#" class="btn-large btn-buy-white">Comprar</a>
+                                <a href="#" class="btn-large btn-buy-white" data-toggle="modal" data-target="#ModalTaller">Comprar</a>
                                 <br>
+                                <!-- Modal -->
+                                <div class="modal fade" id="ModalTaller" tabindex="-1" role="dialog" aria-labelledby="ModalTallerCenter" aria-hidden="true">
+                                    <div class="modal-dialog modal-centered" role="document">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5 class="modal-title modal-subtitle" id="exampleModalLongTitle">Metodos de Pago</h5>
+                                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                </button>
+                                            </div>
+                                            <div class="modal-body">
+                                                <h4 class="modal-content">Pago con Paypal</h4>
+                                                <div class="paypal-btn">
+                                                    <?php echo do_shortcode( '[wpecpp name="Taller" price="30" align="left"]' ); ?>
+                                                </div>
+                                                <br>
+                                                <br>
+                                                <h4 class="modal-content">Pago con Tarjeta de credito</h4>
+                                                <!--<button>Boton Tarjeta de credito</button>-->
+                                                <div class="stipe-btn">
+                                                    <?php echo do_shortcode( '[simpay id="8"]' ); ?>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
                                 <br>
                                 <div class="row card-logos">
                                     <div class="col-3"><img src="<?= get_template_directory_uri() ?>/images/paypal.jpg" alt=""></div>
@@ -141,9 +167,11 @@ $page_talleres = get_page_by_path( 'talleres' );
                                     <div class="col-3"><img src="<?= get_template_directory_uri() ?>/images/maestro.jpg" alt=""></div>
                                 </div>
                             </div>
-                            <div class="back-box">
-                                <p class="back-btn" white>Regresar al home</p>
-                            </div>
+                            <a href="<?= home_url( '/' ); ?>">                       
+                                <div class="back-box">
+                                    <p class="back-btn" white>Regresar al home</p>
+                                </div>
+                            </a>
                         </div>
                     </div> 
                 </div>

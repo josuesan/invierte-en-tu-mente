@@ -588,10 +588,20 @@ video{
     margin-top: 2rem;
 }
 .back-box p::before{
-    content: "<";
+    content: url(../images/svg/white_left_arrow_shadow.svg);
     color: white;
     font-weight: 800;
     padding-right: 15px;
+    width: 35px;
+    height: 10px;
+    position: absolute;
+    left: 0;
+    top: -2px;
+}
+.back-btn{
+    display: block;
+    position: relative;
+    padding-left: 25px;
 }
 .taller-layout{
     max-width: 70%;

@@ -21,8 +21,46 @@ function basic_setup() {
     wp_enqueue_script( 'main-script', get_template_directory_uri().'/js/index.js' , array(), null);
 
 }
-add_action( 'wp_enqueue_scripts', 'basic_setup' );
+function POST_contact_email(){
+    
+    $nombre = isset ($_POST['name']) ? $_POST['name'] : '';
+    $email = isset ($_POST['mail']) ? $_POST['mail'] : '';
+    $detalles= isset ($_POST['details']) ? $_POST['details'] : '';
 
+    if ( '' == $nombre ) {
+        echo '{"code": "1", "data": "name"}';
+        die();
+    }
+
+    if ( !filter_var( $email, FILTER_VALIDATE_EMAIL ) ) {
+        echo '{"code": "1", "data": "mail"}';
+        die();
+    }
+
+    if ( '' == $mensaje ) {
+        echo '{"code": "1", "data": "details"}';
+        die();
+    }
+
+    $to = get_bloginfo('admin_email');
+    $subject = '[Solicitud asesoría] Contacto - '.$nombre ;
+    $message = 'El usuario :: '.$nombre.' ' .$apellido.'; y tiene el siguiente mensaje :  '.$mensaje.;
+
+    //-- Valid if the email was sent or not
+
+    if (wp_mail( $to, $subject, $message)){
+        echo '{"code": "0", "data": "Correo existoso"}';
+    }   
+    else{
+        echo '{"code": "2", "data": "Ocurrio un problema en el envio por favor vuelva intentarlo."}';
+    }
+    
+
+    exit();
+}
+add_action( 'wp_enqueue_scripts', 'basic_setup' );
+add_action( 'wp_ajax_POST_contact', 'POST_contact_email' );
+add_action( 'wp_ajax_nopriv_POST_contact', 'POST_contact_email' );
 
 /* Wordpress supporting */
 

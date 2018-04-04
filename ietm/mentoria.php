@@ -137,7 +137,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                             <div class="buy-area">
                                 <h4 class="section-title-mentoria">Precio</h4>
                                 <p class="big-number" >$100</p>
-                                <a href="" class="btn-large btn-buy-white">Comprar</a>
+                                <a href="" class="btn-large btn-buy-white" data-toggle="modal" data-target="#ModalTallerCenter">Comprar</a>
                                 <br>
                                 <br>
                                 
@@ -157,12 +157,40 @@ $page_talleres = get_page_by_path( 'talleres' );
                             </div>
                         </div>
                     </div>
+                    <!-- Modal -->
+                    <div class="modal fade" id="ModalTallerCenter" tabindex="-1" role="dialog" aria-labelledby="ModalTallerCenter" aria-hidden="true">
+                        <div class="modal-dialog modal-centered" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title modal-subtitle" id="exampleModalLongTitle">Metodos de Pago</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <h4 class="modal-content">Pago con Paypal</h4>
+                                    <div class="paypal-btn">
+                                        <?php echo do_shortcode( '[wpecpp name="Taller" price="30" align="left"]' ); ?>
+                                    </div>
+                                    <br>
+                                    <br>
+                                    <h4 class="modal-content">Pago con Tarjeta de credito</h4>
+                                    <!--<button>Boton Tarjeta de credito</button>-->
+                                    <div class="stipe-btn">
+                                        <?php echo do_shortcode( '[simpay id="8"]' ); ?>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                     <div class="row">
                         <div class="col-12">
                             <!-- Fin info taller -->
-                            <div class="back-box">
-                                <p class="back-btn" purple>Regresar</p>
-                            </div>
+                            <a href="<?= home_url( '/' ); ?>">
+                                <div class="back-box">
+                                    <p class="back-btn" purple>Regresar</p>
+                                </div>
+                            </a>
                         </div>
                     </div> 
                 </div>

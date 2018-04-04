@@ -19,10 +19,10 @@ $page_talleres = get_page_by_path( 'talleres' );
                                     <h2 class="text-center">Sigueme en las redes</h2>
                                     <div class="list-rrss">
                                         <ul class="navbar-nav navbar-nav-horizontal " >
-                                            <li> <a href="#"> <i class="fab fa-instagram"></i> </a> </li>
-                                            <li> <a href="#"> <i class="fab fa-youtube"></i> </a> </li>
-                                            <li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
-                                            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>
+                                            <li> <a href="https://www.instagram.com/invierteentumente_/" target="_blank"> <i class="fab fa-instagram"></i> </a> </li>
+                                            <li> <a href="#" target="_blank"> <i class="fab fa-youtube"></i> </a> </li>
+                                            <!--<li> <a href="#"> <i class="fab fa-twitter"></i> </a> </li>
+                                            <li> <a href="#"> <i class="fab fa-facebook-f"></i> </a> </li>-->
                                         </ul>
                                     </div>
                                 </div>
@@ -36,8 +36,8 @@ $page_talleres = get_page_by_path( 'talleres' );
                                         <li><a href="<?php echo get_permalink( $page_mentoria->ID  ) ?>">Mentoria especializada</a> </li>
                                         <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>#nosotros">Nosotros</a> </li>
                                         <li><a href="#">Youtube</a> </li>
-                                        <li><a href="<?php echo get_permalink( $page_mentoria->ID  ) ?>#testimonios">Testimonio</a> </li>
-                                        <li><a href="<?php echo get_permalink( $page_mentoria->ID  ) ?>">Contacto</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>#testimonios">Testimonio</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>">Contacto</a> </li>
                                     </ul>
                                 </div>
                                 <div class="col-12 col-md-4">
