@@ -33,11 +33,12 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <div class="col-12 col-md-4">
                                     <ul class="navbar-nav" >
                                         <li class="list-title"><a href="<?php echo get_permalink( $page_inicio->ID  ) ?>">Invierte en tu mente</a> </li>
-                                        <li><a href="<?php echo get_permalink( $page_mentoria->ID  ) ?>">Mentoria especializada</a> </li>
-                                        <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>#nosotros">Nosotros</a> </li>
-                                        <li><a href="#">Youtube</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_inicio->ID  ) ?>#seminario">Seminarios</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_mentoria->ID  ) ?>">Mentoria personalizada</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_inicio->ID  ) ?>#taller">Talleres</a></li>
+                                        <li><a href="#">Videos</a> </li>
                                         <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>#testimonios">Testimonio</a> </li>
-                                        <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>">Contacto</a> </li>
+                                        <li><a href="<?php echo get_permalink( $page_sobre_mi->ID  ) ?>">Contactanos</a> </li>
                                     </ul>
                                 </div>
                                 <div class="col-12 col-md-4">
@@ -52,7 +53,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 </div>
                                 <div class="col-12 col-md-4 copyright-cont" style="position:relative;">
                                     <div id="copyright">
-                                        <p class="mb-0">Invierte en tu mente</p>
+                                        <p class="mb-0">Invertir en educación es un seguro contra el fracaso</p>
                                         <p class="mb-0">Copyright © Todos los derechos reservados</p>
                                     </div>
                                     

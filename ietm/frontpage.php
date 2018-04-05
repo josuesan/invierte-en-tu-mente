@@ -142,7 +142,7 @@ $page_talleres = get_page_by_path( 'talleres' );
             <div class="container sm-no-pd">
                 <div class="row">
                     <div class="col-12 sm-no-pd">
-                        <div class="card" >
+                        <div class="card">
                             <img class="card-img-top image-card" src="<?= get_template_directory_uri() ?>/images/laptop.jpg" alt="Card image cap">
                             <div class="mybadge">
                                 <div class="round-star">
@@ -281,8 +281,68 @@ $page_talleres = get_page_by_path( 'talleres' );
                 </div>
             </div>
         </div>
+        <br>
+        <br>
+        <!--taller-->
+        <div class="container-fluid" id="taller">
+            <div class="container sm-no-pd">
+                <div class="row">
+                    <div class="col-12 sm-no-pd">
+                        <div class="card" >
+                            <img class="card-img-top image-card" src="<?= get_template_directory_uri() ?>/images/tallerMTV_1ve.jpg" alt="Card image cap">
+                            <div class="mybadge">
+                                <div class="round-star">
+                                    
+                                </div>
+                                <p class="text-mybadge badge-title">NUEVO</p>
+                            </div>
+                            <div class="card-body">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-7 col-sm-9 col-md-9 col-lg-9 col-xl-9">
+                                            <h5 class="card-title">Taller <span bold>Monetiza tu vida VZLA</span></h5>
+                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <a href="#" class="btn-large btn-buy" data-toggle="modal" data-target="#ModalTallerCenterVzla">Comprar</a>
+                                        </div>
+                                        <div class="col-5 col-sm-3 col-md-3 col-lg-3 col-xl-3">
+                                            <div class="box-price">
+                                                <div class="price">
+                                                    <p class="price-number" >$30</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Modal -->
+                <div class="modal fade" id="ModalTallerCenterVzla" tabindex="-1" role="dialog" aria-labelledby="ModalTallerCenterVzla" aria-hidden="true">
+                    <div class="modal-dialog modal-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title modal-subtitle" id="exampleModalLongTitle">Metodos de Pago</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <h4 class="modal-content">Transferencia Bancaria</h4>
+                                <br>
+                                <p> <span bold purple>Numero de cuenta:</span> 0000-0000-00-0000000000</p>
+                                <p> <span bold purple>Nombre:</span> Pablo Perez</p>
+                                <p> <span bold purple>Tipo de cuenta:</span> Corriente</p>
+                                <p> <span bold purple>Nota: </span> Enviar comprobante por correo a Invierteentumente.la@gmail.com</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <!--Fin post-->
+
     <br>
     <br>
     <!--Aptitudes-->
@@ -369,7 +429,7 @@ $page_talleres = get_page_by_path( 'talleres' );
             <div class="row center-row"> <!--firma--> 
                 <div class="col-12 col-md-6">
                     <div class="firma">
-                        <img src="<?= get_template_directory_uri() ?>/images/svg/firma.svg" alt="">
+                        <img style="transform: rotateZ(90deg);" src="<?= get_template_directory_uri() ?>/images/svg/firma.svg" alt="">
                     </div>
                 </div>
             </div>

@@ -44,7 +44,7 @@ function POST_contact_email(){
 
     $to = get_bloginfo('admin_email');
     $subject = '[Solicitud asesoría] Contacto - '.$nombre ;
-    $message = 'El usuario :: '.$nombre.' ' .$apellido.'; y tiene el siguiente mensaje :  '.$mensaje.;
+    $message = 'El usuario :: '.$nombre.' '.$apellido.'; y tiene el siguiente mensaje :  '.$mensaje;
 
     //-- Valid if the email was sent or not
 

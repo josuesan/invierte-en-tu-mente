@@ -306,9 +306,9 @@ a:focus, a:hover {
     margin: 0 auto;
 }
 .image-card{
-    height: 400px;
     object-fit: cover;
-    object-position: center;
+    width: 100%;
+    max-height: 400px;
 }
 .card-title{
     color:#7b027a;
@@ -616,7 +616,7 @@ video{
 }
 
 .navbar-nav li a{
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .firma{
@@ -699,6 +699,9 @@ video{
     left: 0;
     bottom: 0;
     margin-bottom: 0;
+}
+#copyright *{
+    font-size: 0.9rem;
 }
 .selector a{
     color: white;
