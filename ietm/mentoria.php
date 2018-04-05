@@ -104,28 +104,62 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <p class="banner-mentoria-light" purple>Personalizada</p>
                             </div>
                             <!--Description title-->
-                            <p class="content">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit debitis saepe omnis suscipit consequatur, neque, aspernatur rem corporis quia dolores quam odio earum repellat, aut molestiae laudantium similique laboriosam.</p>
+                            <p class="content">En Invierte en tu mente te brindamos apoyo, dirección y retroalimentación para que así  puedas alcanzar tus objetivos, tomando en cuenta 
+                                variables como tu poder adquisitivo, tus horarios y tu profesión para generar un plan de acción.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <!--Content-->
                             <h2 class="section-title-mentoria">Beneficios</h2>
-                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident at totam voluptatibus perferendis, incidunt veniam minima dolorum praesentium sunt repellat, officia ut veritatis maxime quis in laudantium rerum deserunt ipsum.</p>
+                            <ul class="list-benefits">
+                                <li>
+                                    <h4 class="subtitle-beneficios">Mayor motivación</h4>
+                                    <p class="content">
+                                    Al sentirse respaldado por la experiencia del mentor, estaros mucho más motivado a explorar todas las posibilidades de acción y lograrás predecir de manera más acertadas sus consecuencias. 
+                                    Lo que a su vez se traducirá en mayor confianza en ti y mayor satisfacción por tus resultados.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="subtitle-beneficios">Mayor productividad y eficacia</h4>
+                                    <p class="content">
+                                    Con el apoyo de nuestros profesionales podrás reducir los errores y generar estrategias de trabajo para lidiar con los problemas.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="subtitle-beneficios">Estimular el crecimiento personal y la valoración del autoconcepto.</h4>
+                                    <p class="content">
+                                    Obtendrás una mejor comprensión de ti mismo y sobre los otros, ampliando tus gamas de opciones y herramientas a aplicar para tu vida. Siendo más efectivo y percibiéndote libre.
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="subtitle-beneficios">Desarrollo de competencias</h4>
+                                    <p class="content">
+                                    No solo lograras desarrollar competencias fijas sino que irá más allá incorporando nuevas formar de interactuar y nuevos valores a tu vida cambiando por completo tu estilo de vida. 
+                                    </p>
+                                </li>
+                                <li>
+                                    <h4 class="subtitle-beneficios">Fomentar la creatividad e innovación</h4>
+                                    <p class="content">
+                                    Reafirmamos tu sentido de autoeficacia y te ofrecemos una gama de herramientas que te ayudarán a innovar y explotar  todo el potencial que tus habilidades puedan generar. 
+                                    </p>
+                                </li>
+                            </ul>
                             <br>
                             <p class="section-title-mentoria">
-                                Si me sigues en las redes, ya estás listo para hacer el cambio
+                            Todo profesional exitoso un día fue un simple principiante que jamás se rindió. Afirma “Mi momento es ahora” y comienza a cambiar tu vida.
                             </p>
                             <br>
                             <h2 class="section-title-mentoria mr-15">Objetivo</h2>
-                            <p class="content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nesciunt accusantium totam ut aliquid magni doloribus delectus consectetur voluptas nobis nemo ducimus facere voluptatum, quos eum nisi odit quisquam. Accusamus.</p>
+                            <p class="content">Lograr aumentar su confianza y productividad  para lograr objetivos.</p>
+                            <br>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <!--Time -->
                             <div class="time-area">
-                                <h4 class="section-title-mentoria">Duracion</h4>
+                                <h4 class="section-title-mentoria">Duración</h4>
                                 <p class="big-number mb-0" >50</p>
                                 <p class="time-text">minutos</p>
                             </div>
@@ -147,13 +181,6 @@ $page_talleres = get_page_by_path( 'talleres' );
                                     <div class="col-3"><img src="<?= get_template_directory_uri() ?>/images/visa.jpg" alt=""></div>
                                     <div class="col-3"><img src="<?= get_template_directory_uri() ?>/images/maestro.jpg" alt=""></div>
                                 </div>
-
-                                <!--ul class="navbar-nav navbar-nav-horizontal ml-auto aligned justify-content-mobile" >
-                                    <li class="card-logos-box"> <img src="./images/svg/paypal.svg" alt=""> </li>
-                                    <li class="card-logos-box"> <img src="./images/svg/master-card.svg" alt=""> </li>
-                                    <li class="card-logos-box"> <img src="./images/svg/visa.svg" alt=""> </li>
-                                    <li class="card-logos-box"> <img src="./images/svg/maestro.svg" alt=""> </li>
-                                </ul-->
                             </div>
                         </div>
                     </div>

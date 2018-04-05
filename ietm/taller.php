@@ -129,7 +129,6 @@ $page_talleres = get_page_by_path( 'talleres' );
                         <div class="col-12 col-md-6">
                             <!--Pay buttons-->
                             <div class="pay-area">
-                                <h4 white>Comprar Taller</h4>
                                 <p class="oferta" white>A partir de Mayo por solo <span>$30</span></p>
                                 <a href="#" class="btn-large btn-buy-white" data-toggle="modal" data-target="#ModalTaller">Comprar</a>
                                 <br>

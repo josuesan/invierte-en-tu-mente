@@ -16,7 +16,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                             <!--RRSS-->
                             <div class="row rrss-box">
                                 <div class="col-12 tc-midle">
-                                    <h2 class="text-center">Sigueme en las redes</h2>
+                                    <h2 class="text-center">Sígueme en las redes</h2>
                                     <div class="list-rrss">
                                         <ul class="navbar-nav navbar-nav-horizontal " >
                                             <li> <a href="https://www.instagram.com/invierteentumente_/" target="_blank"> <i class="fab fa-instagram"></i> </a> </li>
@@ -53,7 +53,12 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 </div>
                                 <div class="col-12 col-md-4 copyright-cont" style="position:relative;">
                                     <div id="copyright">
-                                        <p class="mb-0">Invertir en educación es un seguro contra el fracaso</p>
+                                        <p class="mb-0 text-center" bold>
+                                            <img src="<?= get_template_directory_uri() ?>/images/logo-white.png" alt="Invierte en tu mente" class="logo-footer">
+                                        </p>
+                                        <p class="mb-0" bold>  
+                                            Invertir en educación es un seguro contra el fracaso</p>
+                                        <br>
                                         <p class="mb-0">Copyright © Todos los derechos reservados</p>
                                     </div>
                                     

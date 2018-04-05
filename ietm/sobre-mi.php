@@ -159,14 +159,14 @@ $page_talleres = get_page_by_path( 'talleres' );
                     </div>
                     <div class="col-12">
                         <div class="col-12 col-md-6 no-pd">
-                            <h2 class="subtitle" light>Mision</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, culpa, quibusdam, illum magni quisquam minus cupiditate aliquid quod possimus veritatis totam odio maxime quas sit obcaecati? Iusto debitis labore voluptatem.</p>
+                            <h2 class="subtitle" light>Misión</h2>
+                            <p>Como equipo de trabajo tenemos la misión de llegar a tu mente y guiarla por el mejor camino posible considerando siempre el poder de las posibilidades y la capacidad ilimitada que todos poseemos, llegando así internamente al éxito personal y financiero de cada persona que se una a nosotros.</p>
                         </div>
                     </div>
                     <div class="col-12">
                         <div class="col-12 col-md-6 ml-auto no-pd">
-                            <h2 class="subtitle" light>Vision</h2>
-                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, culpa, quibusdam, illum magni quisquam minus cupiditate aliquid quod possimus veritatis totam odio maxime quas sit obcaecati? Iusto debitis labore voluptatem.</p>
+                            <h2 class="subtitle" light>Visión</h2>
+                            <p>Ser la compañía de asesoramiento financiero y personal de mayor confiabilidad y aporte de la región, gracias a nuestra contribución en la educación y el crecimiento financiero de la comunidad iberoamericana.</p>
                             <br>
                             <br>
                         </div>

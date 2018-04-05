@@ -198,6 +198,7 @@
         width: 250px;
         margin: 0 auto;
         text-align: center;
+        justify-content: center;
     }
 
     .banner-content{
@@ -212,6 +213,11 @@
 
     .sobre-mi .info p{
         font-size: 14px;
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 425px){
+    .ms-center{
+        text-align: center;
     }
 }
 

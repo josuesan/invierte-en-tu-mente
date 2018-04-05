@@ -61,7 +61,7 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 </div>
                                 <!--logo  area-->
                                 <a class="navbar-brand" href="<?php echo get_permalink( $page_inicio->ID  ) ?>">
-                                    <img class="d-block img-fluid" src="<?= get_template_directory_uri() ?>/images/logo-white.png" alt="First slide">
+                                    <img class="d-block img-fluid logo-image" src="<?= get_template_directory_uri() ?>/images/logo-white.png" alt="First slide">
                                 </a>
                                 <!--Menu-->
                                 <div class="collapse navbar-collapse" id="navbarsExampleDefault">
@@ -107,24 +107,39 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <br>
                             </div>
                             <!--Description title-->
-                            <p white>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit debitis saepe omnis suscipit consequatur, neque, aspernatur rem corporis quia dolores quam odio earum repellat, aut molestiae laudantium similique laboriosam.</p>
-                            <p white>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit debitis saepe omnis suscipit consequatur, neque, aspernatur rem corporis quia dolores quam odio earum repellat, aut molestiae laudantium similique laboriosam.</p>
-                            <p white>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla fugit debitis saepe omnis suscipit consequatur, neque, aspernatur rem corporis quia dolores quam odio earum repellat, aut molestiae laudantium similique laboriosam.</p>
+                            <p white>La mente guía la acción, está es uno de tus recursos más valiosos, no lo desperdicies, deja que tus pensamientos vayan más allá de ello.</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12">
                             <!--Content-->
-                            <h2 class="section-title mr-15">¿Que contiene?</h2>
-                            <p white>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nesciunt accusantium totam ut aliquid magni doloribus delectus consectetur voluptas nobis nemo ducimus facere voluptatum, quos eum nisi odit quisquam. Accusamus.</p>
-                            <p white>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis nesciunt accusantium totam ut aliquid magni doloribus delectus consectetur voluptas nobis nemo ducimus facere voluptatum, quos eum nisi odit quisquam. Accusamus.</p>
+                            <h2 class="section-title mr-15">¿Qué Aprenderás?</h2>
+                            <ul class="list-aprender">
+                                <li>
+                                    <h3 class="subtitle-aprender">La psicología del emprendedor exitoso</h3>
+                                    <p white>Para ser un emprendedor exitoso debes tener hábitos particulares. Al formar parte de nuestra comunidad de emprendedores te damos tips y estrategias que te permitirán llegar al éxito.</p>
+                                </li>
+                                <li>
+                                    <h3 class="subtitle-aprender">A internalizar el poder de las posibilidades</h3>
+                                    <p white>Cualquier proyecto puede llegar a realizarse aunque a veces en un principio parezca imposible, planteándose objetivos a corto, mediano y largo plazo se pueden materializar tus deseos.</p>
+                                </li>
+                                <li>
+                                    <h3 class="subtitle-aprender">A Canalizar inversiones</h3>
+                                    <p white>El reto consiste en crear mecanismos financieros que permitan generar ingresos exponencialmente. Por ello, te brindaremos alternativas de inversión de mercado que se manejan en la actualidad.</p>
+                                </li>
+                                <li>
+                                    <h3 class="subtitle-aprender">Oportunidades únicas para proyectar tu pasión</h3>
+                                    <p white>Saber reconocer las oportunidades no es una cosa fácil en cuestión, sin embargo aprenderás herramientas que facilitarán la toma de decisiones al momento de presentarse una oportunidad. </p>
+                                </li>
+                            </ul>
+                            <br>
+                            <p white>Haz lo que te gusta y hazlo con pasión, que tu momento es ahora</p>
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <!--Pay buttons-->
                             <div class="pay-area">
-                                <h4 white>Comprar Seminario</h4>
                                 <p class="oferta" white>A partir de Mayo por solo <span>$30</span></p>
                                 <a href="" class="btn-large btn-buy-white" data-toggle="modal" data-target="#ModalTaller">Comprar</a>
                                 <!-- Modal -->

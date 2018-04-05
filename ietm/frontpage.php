@@ -98,14 +98,12 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <div class="row banner-title">
                                     INVIERTE EN TU MENTE
                                 </div>
-                                <div class="row banner-subtitle">
+                                <div class="row banner-subtitle ms-center" >
                                     ¡Invierte en tu mejor activo!
                                 </div>
                                 <div class="row banner-content">
-                                    Tenemos la particular seguridad de que 
-                                    el bien más preciado y valioso que tenemos 
-                                    es nuestra mente. Por ello, tenemos la certeza de que la primera inversión acertada que 
-                                    podemos hacer es brindarle herramientas a nuestra mente para cambiar nuestra realidad.
+                                Tenemos la particular seguridad de que el bien más preciado y valioso que tenemos es nuestra mente. Por ello, aseguramos 
+                                que la primera inversión acertada que podemos hacer es brindarle herramientas para cambiar nuestra realidad.
                                 </div>
                             </div>
                         </div>
@@ -228,7 +226,8 @@ $page_talleres = get_page_by_path( 'talleres' );
                                     <div class="row">
                                         <div class="col-7 col-sm-9 col-md-9 col-lg-9 col-xl-9">
                                             <h5 class="card-title">Taller <span bold>Monetiza tu vida</span></h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <p class="card-text">Ya es hora de cambiar como se escribe la historia de tu vida y en tus manos está el bolígrafo de ese guion.  Monetiza tu vida te brindará una gama de herramientas para lograr tus objetivos, 
+                                                tu solo debes hallar la que mejor de adapte y ponerla en práctica.</p>
                                             <a href="#" class="btn-large btn-buy" data-toggle="modal" data-target="#ModalTallerCenter">Comprar</a>
                                         </div>
                                         <div class="col-5 col-sm-3 col-md-3 col-lg-3 col-xl-3">
@@ -283,7 +282,7 @@ $page_talleres = get_page_by_path( 'talleres' );
         </div>
         <br>
         <br>
-        <!--taller-->
+        <!--taller VENEZUELA-->
         <div class="container-fluid" id="taller">
             <div class="container sm-no-pd">
                 <div class="row">
@@ -300,14 +299,15 @@ $page_talleres = get_page_by_path( 'talleres' );
                                 <div class="container">
                                     <div class="row">
                                         <div class="col-7 col-sm-9 col-md-9 col-lg-9 col-xl-9">
-                                            <h5 class="card-title">Taller <span bold>Monetiza tu vida VZLA</span></h5>
-                                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                            <h5 class="card-title">Taller <span bold>Monetiza tu vida Venezuela</span></h5>
+                                            <p class="card-text">Somos un equipo que apuesta al talento y la potencialidad que tiene nuestra nación Venezuela, por ello ofrecemos la oportunidad a emprendedores 
+                                                venezolanos de informarse y formarse en como poder alcanzar sus metas de manera exitosa.</p>
                                             <a href="#" class="btn-large btn-buy" data-toggle="modal" data-target="#ModalTallerCenterVzla">Comprar</a>
                                         </div>
                                         <div class="col-5 col-sm-3 col-md-3 col-lg-3 col-xl-3">
                                             <div class="box-price">
                                                 <div class="price">
-                                                    <p class="price-number" >$30</p>
+                                                    <p class="price-number" >Bs 2mm</p>
                                                 </div>
                                             </div>
                                         </div>
@@ -368,7 +368,8 @@ $page_talleres = get_page_by_path( 'talleres' );
                         </div>
                         <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10 desktop-no-pdl">
                             <div class="text-aptitud">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam provident voluptate in nemo doloribus dignissimos et delectus assumenda at quam dolores illo odio perspiciatis, quos aperiam ipsum perferendis sed facilis!</p>   
+                                <h4 yellow>Estimular tu crecimiento personal</h4>
+                                <p>Te brindamos herramientas de desarrollo y crecimiento personal aplicadas a todos los ámbitos de tu vida con el objetivo de adoptar un estilo de vida nuevo que te brinde mayor comodidad y satisfacción.</p>   
                             </div>
                         </div>  
                     </div>    
@@ -384,7 +385,8 @@ $page_talleres = get_page_by_path( 'talleres' );
                         </div>
                         <div class="col-12 col-md-9 col-lg-10 col-xl-10  desktop-no-pdl">
                             <div class="text-aptitud">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam provident voluptate in nemo doloribus dignissimos et delectus assumenda at quam dolores illo odio perspiciatis, quos aperiam ipsum perferendis sed facilis!</p>   
+                                <h4 yellow>Objetivizar tus esfuerzos</h4>
+                                <p>Partiendo desde la determinación de “querer hacer algo diferente”, te ayudamos a focalizar tus pensamientos y energías en pro a tus metas. Traducimos tus deseos en un plan de acciones para así poder materializar tus sueños.</p>   
                             </div>
                         </div>  
                     </div>    
@@ -404,7 +406,8 @@ $page_talleres = get_page_by_path( 'talleres' );
                         </div>
                         <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10 desktop-no-pdl">
                             <div class="text-aptitud">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam provident voluptate in nemo doloribus dignissimos et delectus assumenda at quam dolores illo odio perspiciatis, quos aperiam ipsum perferendis sed facilis!</p>   
+                                <h4 yellow>Sensación de capacidad</h4>
+                                <p>Lo principal en el proceso de aprendizaje de Invierte en tu mente es demostrarte como miembro de nuestro equipo de emprendedores todas las habilidades que posees y obtener de ellas el máximo potencial.</p>   
                             </div>
                         </div>  
                     </div>    
@@ -420,7 +423,27 @@ $page_talleres = get_page_by_path( 'talleres' );
                         </div>
                         <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10  desktop-no-pdl">
                             <div class="text-aptitud">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam provident voluptate in nemo doloribus dignissimos et delectus assumenda at quam dolores illo odio perspiciatis, quos aperiam ipsum perferendis sed facilis!</p>   
+                                <h4 yellow>Herramientas para generar ingresos dentro de tus posibilidades</h4>
+                                <p>Ningún proyecto de finanzas personales está completo sin una estrategia para generar ingresos. Nuestro equipo se mantiene constantemente actualizado sobre los temas que son tendencias, para así poder brindarte una gama de opciones dentro de las cuales escoger según tus horarios, habilidad y capital.</p>   
+                            </div>
+                        </div>  
+                    </div>    
+                </div>
+            </div>
+            <div class="row center-row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6">
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-3 col-lg-2 col-xl-2 desktop-no-pdr">
+                            <div class="image-aptitud">
+                                <div class="circle">
+                                    <i class="far fa-user"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-9 col-lg-10 col-xl-10 desktop-no-pdl">
+                            <div class="text-aptitud">
+                                <h4 yellow>Carisma en ventas</h4>
+                                <p>Te apoyamos y alentamos a vencer tus miedos al tratar con un tercero, reafirmando tu seguridad en ti mismo. Obtendrás ese toque de suspicacia y de gracia que te falta para reconocer cuales son las necesidades del otro u como ayudarlo a satisfacerlas.</p>   
                             </div>
                         </div>  
                     </div>    
